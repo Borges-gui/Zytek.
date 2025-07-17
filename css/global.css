@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --font-base: instrument-sans, sans-serif;
+  --color-primary: #0084FF;
+  --color-secondary: #BCDCFF;
+  --color-background: #F6F8FF;
+  --color-white: #ffffff;
+  --color-text: #000;
+  --color-highlight: #000000;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --radius: 15px;
+  --shadow: 0px 10px 13px rgba(0, 0, 0, 0.25);
+  --titulo: 2rem;
+  --subtitulo: 1rem;
+  --cardtitulo: 1.2rem;
+  --cardtexto: 0.95rem;
+
+}
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

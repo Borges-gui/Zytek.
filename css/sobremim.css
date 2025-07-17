@@ -1,0 +1,83 @@
+.sobre-nos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+  max-width: 75%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  font-family: var(--font-base);
+  margin-top: 4.5rem;
+}
+
+.sobre-texto {
+  flex: 1;
+  max-width: 550px;
+
+}
+
+.subtitulo {
+  color: var(--color-primary);
+  font-size: var(--subtitulo);
+  font-weight: 500;
+  display: block;
+  margin-bottom: var(--spacing-sm);
+}
+
+.sobre-texto h2 {
+  font-size: var(--titulo);
+  color: var(--color-highlight);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.3;
+  
+}
+
+.sobre-texto .destaque {
+  text-decoration: underline;
+  color: var(--color-highlight);
+}
+
+.sobre-texto p {
+  font-size: 1.1rem;
+  color: var(--color-text);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-lg);
+}
+
+.btn-primario {
+  display: inline-block;
+  background: linear-gradient(90deg, var(--color-primary), #61E5FF);
+  color: var(--color-white);
+  padding: 14px 36px; /* <-- aumentei um pouco */
+  font-size: 1rem;     /* <-- tamanho padrão (pode subir pra 1.05rem se quiser mais) */
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 132, 255, 0.3);
+  transition: all 0.3s ease;
+  background-size: 150%;
+  background-position: center;
+}
+
+.btn-primario:hover {
+  background-position: right;
+  box-shadow: 0 6px 20px rgba(0, 132, 255, 0.4);
+  filter: brightness(1.05);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.sobre-imagem {
+  flex: 1;
+  min-width: 250px;
+  max-width: 470px;
+  
+}
+
+.sobre-imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+
+}

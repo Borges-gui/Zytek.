@@ -1,0 +1,92 @@
+
+.header {
+  background: linear-gradient(to right, var(--color-white), #ecf4fc);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  height: 70px;
+  margin: 2rem auto;
+
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.logo, img {
+  height: 40px;
+  width: 120px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1rem;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-highlight);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav a:hover::after {
+  transform: scaleX(1);
+}
+
+
+.btn-contato {
+  background-color: #3f7af9;
+  color: var(--color-white);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: 9999px;
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-contato::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: all 0.6s ease;
+  z-index: 0;
+}
+
+.btn-contato:hover::before {
+  left: 100%;
+}
+
+.btn-contato:hover {
+  background-color: #3f7af9; 
+  box-shadow: 0 0 15px #3f7af9, 0 0 40px #3f7af9;
+}

@@ -1,0 +1,148 @@
+footer {
+  background-color: var(--color-secondary);
+  margin-top: 7rem;
+  font-family: var(--font-base);
+  color: var(--color-highlight);
+}
+
+.footer-container {
+  width: 75%;
+  margin: 0 auto;
+  padding: var(--spacing-lg) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.footer-topo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: flex-start;
+  font-size: var(--titulo);
+  font-weight: bold;
+  gap: var(--spacing-sm);
+  margin-right: 4rem;
+}
+
+.footer-logo img {
+  width: 200px;
+  height: auto;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: var(--spacing-lg);
+  flex: 1;
+  align-items: flex-start;
+}
+
+.footer-coluna h4,
+.footer-newsletter h4 {
+  font-size: var(--subtitulo);
+  font-weight: bold;
+  margin-bottom: var(--spacing-sm);
+}
+
+.footer-coluna ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-coluna li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-coluna a {
+  text-decoration: none;
+  color: var(--color-highlight);
+  font-size: var(--cardtexto);
+}
+
+.footer-coluna a:hover {
+  text-decoration: underline;
+}
+
+.footer-newsletter p {
+  font-size: var(--cardtexto);
+  margin-bottom: var(--spacing-sm);
+}
+
+.newsletter-form {
+  display: flex;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow);
+  width: fit-content;
+}
+
+.newsletter-form input {
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--cardtexto);
+  outline: none;
+  width: 180px;
+}
+
+.newsletter-form button {
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-white);
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0 999px 999px 0;
+  font-size: 1.2rem;
+}
+
+.footer-divisoria {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: var(--spacing-md) 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.footer-redes {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.footer-redes i {
+  font-size: 1rem;
+  background-color: var(--color-primary);
+  color: white;
+  padding: var(--spacing-sm);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.footer-redes i:hover {
+  background-color: #005fcc;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.footer-redes a {
+  text-decoration: none;
+}
+
