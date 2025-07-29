@@ -37,7 +37,7 @@
   background: linear-gradient(90deg, var(--color-primary), #61E5FF);
   background-size: 150%;
   background-position: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
   transition: all 0.3s ease;
 }
 
