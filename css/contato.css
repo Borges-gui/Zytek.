@@ -95,13 +95,13 @@
 .contato-form-titulo {
   font-size: var(--cardtitulo);
   font-weight: 700;
-  color: var(--color-highlight);
+  color: #000;
 }
 
 .contato-form-subtitulo {
   font-size: var(--cardtexto);
   margin-bottom: var(--spacing-md);
-  color: var(--color-highlight);
+  color: #000;
 }
 
 .contato-form-linha {
@@ -171,5 +171,5 @@
   font-size: var(--cardtexto);
   font-weight: 500;
   margin-bottom: var(--spacing-sm);
-  color: var(--color-highlight);
+  color: #000;
 }

@@ -127,12 +127,11 @@
 .botao-processo {
   text-align: center;
   padding: 2rem 0;
-  background-color: #f7f8fe; /* cor de fundo clara */
 }
 
 .botao-processo h2 {
   font-size: 1.5rem;
-  color: #000;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -145,7 +144,7 @@
   border: none;
   border-radius: 999px;
   font-weight: 600;
-  background: linear-gradient(90deg, #007bff, #3ee3ff);
+  background: linear-gradient(90deg, var(--color-primary), #3ee3ff);
   background-size: 150%;
   background-position: center;
   box-shadow: 0 4px 12px rgba(0, 132, 255, 0.3);
