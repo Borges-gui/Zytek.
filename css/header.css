@@ -1,5 +1,5 @@
 .header {
-  background: #000;
+  background: #111827;
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--radius);
   display: flex;
@@ -8,7 +8,9 @@
   max-width: 80%;
   height: 70px;
   margin: 2rem auto;
-  border: 0.1px solid #ffffff;
+  border: 2px solid transparent;
+  background: linear-gradient(#111827, #111827) padding-box, linear-gradient(to right, var(--color-primary), #dadcf2) border-box;
+
 }
 
 .menu-toggle {
