@@ -1,5 +1,5 @@
 .header {
-  background: #111827;
+  background: var(--color-background);
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--radius);
   display: flex;
@@ -9,7 +9,7 @@
   height: 70px;
   margin: 2rem auto;
   border: 2px solid transparent;
-  background: linear-gradient(#111827, #111827) padding-box, linear-gradient(to right, var(--color-primary), #dadcf2) border-box;
+  background: linear-gradient(var(--color-background), var(--color-background)) padding-box, linear-gradient(to right, var(--color-primary), #dadcf2) border-box;
 
 }
 
