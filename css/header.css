@@ -8,7 +8,7 @@
   max-width: 80%;
   height: 70px;
   margin: 2rem auto;
-  border: 0.1px solid #0040FF;
+  border: 0.1px solid #ffffff;
 }
 
 .menu-toggle {
@@ -22,7 +22,7 @@
 
 .logo, img {
   height: 40px;
-  width: 120px;
+  width: 150px;
 }
 
 .nav {
