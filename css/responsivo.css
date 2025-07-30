@@ -346,6 +346,11 @@
 }
 
 @media (max-width: 480px) {
+
+  .linha-processo::before {
+    left: 26px; 
+  }
+
   .numero-etapa {
     width: 32px;
     height: 32px;
