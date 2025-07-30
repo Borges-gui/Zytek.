@@ -14,7 +14,6 @@
   width: 320px;
   padding: 1.5rem 1.5rem 2rem 1rem;
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
   font-family: var(--font-base);
   transition: transform 0.3s ease;
   margin-bottom: 2rem;
@@ -23,6 +22,7 @@
 
 .card:hover {
   transform: translateY(-5px);
+  box-shadow: var(--shadow);
 
 }
 

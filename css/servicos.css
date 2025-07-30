@@ -37,7 +37,6 @@
   border-radius: 12px;
   padding: 24px;
   text-align: left;
-  box-shadow: var(--shadow);
   max-width: 320px;
   transition: transform 0.3s;
   border: solid 1px #6e6e6e;
@@ -46,6 +45,7 @@
 
 .card-servico:hover {
   transform: translateY(-6px);
+  box-shadow: var(--shadow);
 }
 
 .card-header {

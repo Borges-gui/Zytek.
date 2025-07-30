@@ -88,3 +88,24 @@
   margin: 5rem auto;
 
 }
+
+/* Aplica a animação nas imagens */
+.img-ilustracao-1,
+.img-ilustracao-2 {
+  animation: flutuar 3s ease-in-out infinite;
+}
+
+/* Se quiser dar uma diferença sutil entre as duas */
+.img-ilustracao-2 {
+  animation-delay: 1.5s;
+}
+
+/* Animação para cima e para baixo */
+@keyframes flutuar {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px); /* Sobe 10px */
+  }
+}
