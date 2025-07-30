@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--color-secondary);
+  background-color: #0e1426;
   margin-top: 7rem;
   font-family: var(--font-base);
   color: var(--color-highlight);
@@ -107,7 +107,7 @@ footer {
 
 .footer-divisoria {
   border: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin: var(--spacing-md) 0;
 }
 
@@ -137,7 +137,7 @@ footer {
 }
 
 .footer-redes i:hover {
-  background-color: #005fcc;
+  background-color: #0040FF;
   transform: scale(1.1);
   cursor: pointer;
 }

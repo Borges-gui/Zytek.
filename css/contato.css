@@ -7,12 +7,11 @@
 }
 
 .contato-info {
-  background: linear-gradient(to bottom, var(--color-primary), var(--color-background));
+  background: linear-gradient(to bottom, var(--color-primary), #0e1426);
   width: 35%;
   height: 650px;
   border-top-left-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
-  box-shadow: var(--shadow);
   padding: var(--spacing-lg);
   display: flex;
   flex-direction: column;
