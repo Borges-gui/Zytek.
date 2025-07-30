@@ -18,6 +18,11 @@
   .btn-contato {
     flex-shrink: 0;
   }
+
+  .logo, img {
+  height: 35px;
+  width: 138px;
+  }
 }
 
 /* ======= Seção: Hero - Responsivo ======= */
@@ -300,7 +305,7 @@
 
 @media (max-width: 768px) {
   .linha-processo::before {
-    left: 8px; /* move a linha lateral pra esquerda */
+    left: 30px; /* move a linha lateral pra esquerda */
     transform: none;
   }
 
