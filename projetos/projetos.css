@@ -375,7 +375,7 @@ a {
     }
     .projects-grid {
         grid-template-columns: 1fr; /* Volta para 1 coluna em telas muito pequenas */
-        gap: 15px;
+        gap: 40px;
     }
     .card-image-container {
         height: 120px;
