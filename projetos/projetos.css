@@ -423,31 +423,36 @@ a {
 .fixed-back-button {
     position: fixed;
     bottom: 20px;
-    left: 20px;
-    width: 44px;
-    height: 44px;
+    right: 20px; /* <-- mudou de left para right */
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
-    border: 2px solid var(--primary-blue);
-    background-color: transparent;
-    color: var(--primary-blue);
+    background-color: #f9f9f9; /* fundo azul */
+    color: #000; /* seta preta */
+    border: none;
     display: none;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* seta mais grossa */
+    font-weight: bold;
     z-index: 999;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .fixed-back-button:hover {
-    background-color: var(--primary-blue);
-    color: var(--text-light);
-    transform: scale(1.05);
+    transform: scale(1.1);
+    background-color: #0035cc; /* tom mais escuro no hover */
 }
 
-/* Mostra apenas no responsivo */
+/* Exibe apenas em telas pequenas */
 @media (max-width: 768px) {
+    .back-home-button {
+        display: none;
+    }
+
     .fixed-back-button {
         display: flex;
     }
 }
+
 
