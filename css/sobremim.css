@@ -81,3 +81,27 @@
   border-radius: var(--radius);
 
 }
+
+.btn-projetos-responsivo{
+  display: none;
+  background: linear-gradient(90deg, #61E5FF, var(--color-primary)); /* Invertido */
+  color: var(--color-white);
+  padding: 14px 36px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 132, 255, 0.25);
+  transition: all 0.3s ease;
+  background-size: 150%;
+  background-position: center;
+}
+
+.btn-projetos-responsivo:hover {
+  background-position: left;
+  box-shadow: 0 6px 20px rgba(0, 132, 255, 0.4);
+  filter: brightness(1.05);
+  transform: translateY(-2px) scale(1.02);
+}
+

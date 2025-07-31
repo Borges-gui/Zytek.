@@ -128,6 +128,13 @@
     padding: 12px 28px;
     font-size: 0.95rem;
   }
+
+  .btn-projetos-responsivo{
+  display: inline-block;
+  margin-left: 1rem;
+
+}
+
 }
 
 @media (max-width: 480px) {
@@ -148,6 +155,13 @@
     width: 100%;
     padding: 12px 0;
   }
+
+  .btn-projetos-responsivo{
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 0;
+
+}
 }
 
 /* ======= Seção: Serviços - Responsivo ======= */
