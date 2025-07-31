@@ -5,11 +5,12 @@
   max-width: 75%;
   margin: 2.5rem auto;
   flex-wrap: wrap;
-  
+
 }
 
 .hero-content {
   max-width: 500px;
+
 }
 
 .hero-content h1 {
@@ -17,12 +18,14 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
+
 }
 
 .hero-content p {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 30px;
+
 }
 
 .btn-primary {
@@ -39,14 +42,15 @@
   background-position: center;
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
+
 }
 
-/* Hover clean e moderno */
 .btn-primary:hover {
   background-position: right;
   transform: translateY(-1px) scale(1.02);
   box-shadow: 0 4px 16px rgba(97, 229, 255, 0.3);
   filter: brightness(1.05);
+
 }
 
 
@@ -54,6 +58,7 @@
   position: relative;
   width: 500px;
   height: 400px;
+
 }
 
 .hero-images img {
@@ -61,6 +66,7 @@
   border-radius: 15px;
   transition: transform 0.3s ease;
   position: absolute;
+
 }
 
 .img-ilustracao-1 {
@@ -68,6 +74,7 @@
   right: 230px;
   width: 200px; 
   z-index: 2;
+
 }
 
 .img-ilustracao-2 {
@@ -75,10 +82,12 @@
   right: 0;
   width: 280px;
   z-index: 1;
+
 }
 
 .hero-images img:hover {
   transform: translateY(-4px);
+
 }
 
 .linha {
@@ -89,23 +98,50 @@
 
 }
 
-/* Aplica a animação nas imagens */
 .img-ilustracao-1,
 .img-ilustracao-2 {
   animation: flutuar 3s ease-in-out infinite;
+
 }
 
-/* Se quiser dar uma diferença sutil entre as duas */
 .img-ilustracao-2 {
   animation-delay: 1.5s;
+
 }
 
-/* Animação para cima e para baixo */
 @keyframes flutuar {
   0%, 100% {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-8px); /* Sobe 10px */
+    transform: translateY(-8px); 
   }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.img-ilustracao-1,
+.img-ilustracao-2 {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards, flutuar 3s ease-in-out infinite;
+
+}
+
+.img-ilustracao-1 {
+  animation-delay: 0.2s, 1s;
+
+}
+
+.img-ilustracao-2 {
+  animation-delay: 0.5s, 1.8s;
+
 }
