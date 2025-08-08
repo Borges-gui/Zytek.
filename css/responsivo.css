@@ -179,6 +179,12 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .cards-servicos {
+    grid-template-columns: repeat(3, 1fr); /* máximo de 3 por linha */
+  }
+}
+
 @media (max-width: 768px) {
   .cards-servicos {
     grid-template-columns: 1fr;
