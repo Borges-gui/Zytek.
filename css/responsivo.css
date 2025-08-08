@@ -188,7 +188,7 @@
 /* Telas grandes – máximo de 3 cards por linha */
 @media (min-width: 1024px) {
   .cards-servicos {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 }
 
