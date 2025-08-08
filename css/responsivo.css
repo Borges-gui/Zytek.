@@ -185,6 +185,14 @@
   }
 }
 
+/* Telas grandes – máximo de 3 cards por linha */
+@media (min-width: 1024px) {
+  .cards-servicos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet e celular – responsivo */
 @media (max-width: 768px) {
   .cards-servicos {
     grid-template-columns: 1fr;
